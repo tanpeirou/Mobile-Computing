@@ -14,4 +14,6 @@ pip install pyaudio numpy silero-vad
 4. Download refiner.py
 5. Download live_pipeline.py
 6. Run in environment
-   python3 live_pipeline.py
+```
+python3 live_pipeline.py
+```
