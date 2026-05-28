@@ -14,6 +14,7 @@ class RealLocalLLM:
         system_instruction = (
             "You are an on-device ASR post-processing assistant. "
             "Your task is to fix grammar, context, and homophone errors in the raw transcript. "
+            "If there is any sentence that doesn't make sense, please correct it based on your logic."
             "Respond ONLY with the corrected sentence. Do not add explanations."
         )
         
